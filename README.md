@@ -5,11 +5,11 @@
 
 ## TP3 : WORKER
 1. Installer les nouveaux packages `npm install`
-2. Compléter et lancer la nouvelle migration `npm run migrate`
-3. Compléter le code de `worker.js`
-4. Ajouter le script pour lancer le worker dans `package.json`
-5. Provisionner le Redis en local `docker-compose up -d`
-6. Rattacher votre application au Redis (`.env`)
+2. Provisionner le Redis en local `docker-compose up -d`
+3. Rattacher votre application au Redis
+4. Compléter et lancer la nouvelle migration `npm run migrate`
+5. Compléter le code de `worker.js`
+6. Ajouter le script pour lancer le worker dans `package.json`
 7. Lancer l'application en local et tester le comportement du WORKER
 8. Préparer votre application pour le déploiement :
    1. Configurer le démarrage en mode WEB et WORKER via le `Procfile`
