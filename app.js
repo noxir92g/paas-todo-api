@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 
 app.get("/", function (req, res) {
-  res.send(`YOOO l'équipe, c'est ETIG` + process.env.NOM_ENV)
+  res.send(`YOOO l'équipe, c'est ` + process.env.NOM_ENV)
 })
 
 const port = process.env.PORT
