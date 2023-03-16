@@ -32,7 +32,7 @@ app.post("/todos", async function (req, res) {
     )
   } catch (error) {
     console.error(error)
-    res.status(400).send("bad request")
+    res.status(400).send("bad request" + error)
     return
   }
   res.send("Ok")
